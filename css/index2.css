@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One'); @import url('https://fonts.googleapis.com/css?family=Montserrat'); @import url('https://fonts.googleapis.com/css?family=Oranienbaum');
 /* CSS Document */
 
 body{
@@ -65,7 +65,7 @@ header{
 }
 footer{
 	width: 100%;
-	background-color: lavender;
+	background-color: lightgray;
 	position:fixed;
     height:50px;
     bottom:0px;
@@ -77,15 +77,17 @@ footer{
 	text-align: center;
 	font-size: 15px;
 	padding: 20px 0 0 0;
+	color: white;
 }
 #aboutleft{
 	width: 40%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: inline-block;
 	margin-left: 70px;
 	height: 300px;
 	position: absolute;
 	margin-top: 50px;
+	border-radius: 3%;
 }
 #aboutmiddle{
 	width: 15%;
@@ -95,12 +97,13 @@ footer{
 }
 #aboutright{
 	width: 30%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: inline-block;
 	margin-top: 50px;
 	height: 300px;
 	position: absolute;
 	margin-left: 60%;
+	border-radius: 3%;
 }
 nav {
   /*margin-top: 40px;*/
@@ -176,5 +179,13 @@ iframe {
 	margin:  30px 0 30px 280px;
 	display: inline-block;
 }
-
-
+h2{
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
+	
+}
+.abouttext{
+	padding: 10px;
+	font-family: 'Oranienbaum', serif;
+	font-size: 20px;
+}
