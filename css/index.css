@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One'); @import url('https://fonts.googleapis.com/css?family=Montserrat'); @import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+/* CSS Document */
+
+body{
+	background-color: #212121;
+	margin: 0;
+	margin-bottom: 50px;
+}
+#body{
+	width: 100%;
+	height: 100%;
+	background-color: #212121;
+}
+#bodycontent{
+	width: 100%;
+	height: 600px;
+	background-color: #212121;
+}
+.bodyphoto{
+	width: 100%;
+}
+#bodytext{
+	text-align: center;
+	font-size: 35px;
+	padding: 180px 0 0 0;
+}
+p{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 150px;
+    overflow: hidden;
+    background-color: dimgray;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px 16px;
+    text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+li a:hover {
+    background-color: deepskyblue;
+}
+.active{
+	background-color: slategray;
+	color: dimgray;
+}
+*/
+header{
+	height: 100px;
+	background: #212121;  
+}
+#headertext{
+	color: #ffffff;
+	text-align: left;
+	font-size: 45px;
+	padding: 35px 0 25px 40px;
+	font-family: 'Poiret One', cursive;
+}
+footer{
+	width: 100%;
+	background-color: lightgray;
+	position:fixed;
+    height:30px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+#footertext{
+	text-align: center;
+	font-size: 15px;
+	padding: 5px 0 0 0;
+	color: #212121;
+}
+#aboutleft{
+	width: 40%;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	margin-left: 70px;
+	height: 300px;
+	position: absolute;
+	margin-top: 50px;
+	border-radius: 3%;
+}
+#aboutmiddle{
+	width: 15%;
+	display: inline-block;
+	margin-top: 50px;
+	position: absolute;
+}
+#aboutright{
+	width: 30%;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	margin-top: 50px;
+	height: 300px;
+	position: absolute;
+	margin-left: 60%;
+	border-radius: 3%;
+}
+nav {
+  /*margin-top: 40px;*/
+  padding: 24px;
+  text-align: left;
+  font-family: 'Poiret One', cursive;
+}
+#navbar {
+  background: #212121;
+}
+.link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.linkactive {
+  transition: 0.4s;
+  color: #FFCFD0;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link:hover {
+  background-color: #ffffff;
+  color: dimgray;
+  padding: 10px 24px;
+	text-decoration: none;
+}
+.linkactive:hover {
+  background-color: #ffffff;
+  color: dimgray;
+  padding: 10px 24px;
+	text-decoration: none;
+}
+#designheader{
+	width: 90%;
+	height: 50px;
+	margin: 3% 0 0 5%;
+	display: inline-block;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+
+}
+.display{
+	width: 420px;
+	height: 594px;
+	margin: 6%;
+	display: inline-block;
+	/*border: 4px solid black;*/
+}
+/*
+.intro{
+	width: 200px;
+	height: 200px;
+	margin: 7%;
+	display: inline-block;
+}
+
+.introimage{
+	width: 200px;
+	height: 200px;
+}
+*/
+.introimage {
+    float: left;
+    width: 33.33%;
+    padding: 80px;
+}
+.intro:hover img{
+	transform: scale(1.1);
+}
+img {
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+
+
+#photoheader{
+	color: white;
+	width: 90%;
+	height: 50px;
+	margin: 3% 0 2% 5%;
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+
+}
+#photoheader2{
+	color: white;
+	width: 40%;
+	height: 50px;
+	margin: 3% 0 2% 5%;
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+
+}
+#photoheader3{
+	width: 25%;
+	margin: 0 0 2% 12%;
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+
+}
+
+.displayphoto{
+	width: 250px;
+	height: 190px;
+	margin: 5%;
+	display: inline-block;
+	border: 2px solid black;
+}
+.photowidth{
+	width: 100%;
+}
+
+
+.videosize{
+	height: 400px;
+	width: 711px;
+	margin: 30px 0 30px 0;
+	display: inline-block;
+	padding-left: 20%;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
+	
+}
+
+h3{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+h4{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.abouttext{
+	padding: 10px;
+	font-family: 'Oranienbaum', serif;
+	font-size: 20px;
+}
